@@ -49,6 +49,7 @@
       }
     ],
     "dest": "_site",
+    "filter": "filterConfig.yml",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
