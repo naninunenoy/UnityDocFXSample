@@ -11,14 +11,14 @@ namespace docfxSample {
         /// <summary>
         /// Start is called before the first frame update
         /// </summary>
-        void Start() {
+        public void Start() {
 
         }
 
         /// <summary>
         /// Update is called once per frame
         /// </summary>
-        void Update() {
+        public void Update() {
 
         }
     }
