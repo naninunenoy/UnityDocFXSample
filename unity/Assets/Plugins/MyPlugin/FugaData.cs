@@ -56,29 +56,3 @@ namespace MyPlugin {
     }
 }
 
-/// <summary>
-/// namespaceを定義しないとdocFXには無視される
-/// </summary>
-public class FugaFugaData {
-    public int Number { set; get; }
-    public string Message { set; get; }
-}
-
-namespace FugaFugaNameSpace {
-    /// <summary>
-    /// アセンブリごとでなくnamespaceごとに作られる
-    /// </summary>
-    public class FugaFugaDataInNameSpace {
-        public int Number { set; get; }
-        public string Message { set; get; }
-    }
-    namespace FugaFugaNestedNameSpace {
-        /// <summary>
-        /// ネストしたnamespaceはどう表示されるか
-        /// </summary>
-        public class FugaFugaDataInNestedNameSpace {
-            public int Number { set; get; }
-            public string Message { set; get; }
-        }
-    }
-}
