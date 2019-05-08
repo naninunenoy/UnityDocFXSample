@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\MyPlugin\FugaData.cs" />
+    <Compile Include="Assets\Plugins\MyPlugin\NestedNameSpace\FugaDataInOtherNameSpace.cs" />
+    <Compile Include="Assets\Plugins\MyPlugin\NoNameSpace\FugaDataWithoutNameSpace.cs" />
     <Compile Include="Assets\Plugins\MyPlugin\PiyoType.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

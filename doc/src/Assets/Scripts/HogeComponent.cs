@@ -18,6 +18,11 @@ namespace docfxSample {
         /// <value>The type of the piyo.</value>
         public PiyoType PiyoType { private set; get; }
 
+        /// <summary>
+        /// Init the specified fuga and piyo.
+        /// </summary>
+        /// <param name="fuga">Fuga.</param>
+        /// <param name="piyo">Piyo.</param>
         public void Init(FugaData fuga, PiyoType piyo) {
             fugaData = fuga;
             PiyoType = piyo;
